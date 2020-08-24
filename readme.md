@@ -22,5 +22,5 @@ docker container run -p 8080:8080 --network=web-application-mysql-network -e RDS
 ### Docker-compose
 
 ```
-docker-compose up
+docker-Compose up
 ```
