@@ -1,7 +1,10 @@
 version: '3.7'
 services:
   docker-mysql-web-application:
-    image: venkatpakalon/springboot-docker-mysql:0.0.1-SNAPSHOT 
+    #image: venkatpakalon/springboot-docker-mysql:0.0.1-SNAPSHOT
+    build:
+      context: .
+      dockerfile: Dockerfile
     ports:
       - "8080:8080"
     restart: always
