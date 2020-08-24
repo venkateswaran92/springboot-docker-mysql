@@ -24,3 +24,8 @@ docker container run -p 8080:8080 --network=web-application-mysql-network -e RDS
 ```
 docker-Compose up
 ```
+
+### Resource
+```
+http://localhost:8080/employee/all
+```
