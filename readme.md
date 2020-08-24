@@ -1,4 +1,4 @@
-#Spring Boot and MySQL as Database
+# Spring Boot and MySQL as Database
 
 ### maven buid
 
