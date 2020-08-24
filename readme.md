@@ -27,5 +27,5 @@ docker-Compose up
 
 ### Resource
 ```
-http://localhost:8080/employee/all
+curl -v http://localhost:8080/employee/all
 ```
